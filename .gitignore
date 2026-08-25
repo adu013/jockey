@@ -1,0 +1,44 @@
+# --- Go Build Artifacts ---
+# Compiled binaries and local executables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+out/
+
+# --- Testing & Coverage ---
+# Test binary outputs and code coverage reports
+*.test
+*.prof
+c.out
+coverage.txt
+
+# --- Dependencies & Modules ---
+# Vendor directory is ignored by default if you use Go Modules (recommended)
+# Uncomment the line below only if you explicitly choose not to check in vendored code
+# vendor/
+
+# --- Environment & Secrets ---
+# Local environment setup files that might contain sensitive keys
+.env
+.env.local
+
+# --- Operating System Files ---
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- IDEs and Editors ---
+# Visual Studio Code
+.vscode/
+
+# JetBrains (GoLand, IntelliJ)
+.idea/
